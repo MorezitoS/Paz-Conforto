@@ -1,0 +1,211 @@
+@charset 'UTF-8';
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header div {
+    height: 350px;
+}
+
+
+
+.parallax {
+    background-image: url(../images/parallax.png);
+    width: 100%;
+    height: auto;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parallax h1 {
+    padding-top: 90px;
+    font-size: 81px;
+}
+
+.parallax p {
+    color: rgb(194, 194, 194);
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.parallax button {
+    background-color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+.parallax button:hover {
+    transition: 0.5;
+    background-color:  rgb(0, 0, 0);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.info {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(194, 194, 194);
+}
+
+hr {
+    background-color: rgb(105, 105, 105);
+    border: none;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+article ul {
+    text-align: center;
+
+    
+}
+
+article ul li {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    gap: 10px;
+}
+
+.img1 {
+    width: 350px;
+}
+
+.img1 img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.product h4 {
+    font-size: 30px;
+}
+
+.product p {
+    font-size: 20px;
+    
+}
+
+.product button {
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    margin-top: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.product button:hover {
+    transition: 0.5s;
+    transform: translateY(-5px)
+}
+
+address iframe {
+    display: block;
+    width: 80vw;
+    margin: auto;
+    border-radius: 12px;
+    padding-bottom: 25px;
+}
+
+address h4 {
+    text-align: right;
+    font-size: 45px;
+    padding: 10px;
+}
+
+address p {
+    font-size: 20px;
+    text-align: right;
+}
+
+address a {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+}

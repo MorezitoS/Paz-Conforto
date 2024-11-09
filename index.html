@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo-pc.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Paz & Conforto</title>
+</head>
+<body> 
+    <header>
+        <img src="images/logo-pc.png" alt="logo da empresa">
+         <div class="parallax">
+            <h1>Paz & Conforto</h1>
+            <p>Especialista em Soluções Funerárias</p>
+            <button onclick="scrollToPurchase()">Reservar Caixão</button>
+         </div>
+         
+    </header>
+    <!-- Não há nada para você ver aqui :) -->
+    <main>
+        <article>
+            <h2>Nossos Serviços</h2>
+            <hr>
+            <ul>
+                <li><p><strong>Venda de caixões</strong> com variados materiais e acabamentos.</p></li>
+                <li><p><strong>Aluguel de caixões</strong> para velórios de curta duração.</p></li>
+                <li><p><strong>Customização e personalização</strong> (Gravuras, Acabamentos, Acessórios).</p></li>
+                <li><p><strong>Parcerias</strong> com funerárias e crematórios locais.</p></li>
+
+            </ul>
+        </article>
+
+        <article>
+            <h2>Matéria Prima</h2>
+            <hr>
+            <ul>
+                <li><p><strong>Madeira:</strong> Compensado, MDF e madeiras nobres (Mogno e Cedro).</p></li>
+                <li><p><strong>Aço Inox:</strong> Para caixões de alta durabilidade.</p></li>
+                <li><p><strong>Estofamento Interno:</strong> Tecido (Veludo e Seda) com opções de simples à luxo.</p></li>
+                <li><p><strong>Acessórios:</strong> Alças e detalhes em metal ou aço inoxidável.</p></li>
+            </ul>
+        </article>
+
+        <div class="container2">
+            <div class="img1">
+                <img src="images/madeira.png" alt="#">
+            </div>
+
+            <div class="img1">
+                <img src="images/ferro.png" alt="#">
+            </div>
+
+            <div class="img1">
+                <img src="images/pegada.png" alt="#">
+            </div>
+        </div>
+
+        <h2 id="purchase">Tabela de Preços</h2>
+        <p class="info">Taxa de Transporte: R$150,00 (até 30km)</p>
+        <hr>
+
+        <div class="container">
+            
+            <div class="product">
+                <img src="images/basico.png" alt="#">
+                <h4>Linha Econômica</h4>
+                <p>Compensado, interior básico</p>
+                    <p class="buy"><Strong>Comprar:</Strong> R$800,00</p>
+                    <p class="buy"><Strong>Alugar (24H):</Strong> R$200,00</p>
+                <button onclick="sendMessage()">Reservar Caixão</button>
+            </div>
+
+            <div class="product">
+                <img src="images/inter.png" alt="#">
+                <h4>Linha Intermediária</h4>
+                <p>MDF com forro em veludo</p>              
+                    <p class="buy"><Strong>Comprar:</Strong> R$1.500,00</p>
+                    <p class="buy"><Strong>Alugar (24H):</Strong> R$350,00</p>
+
+                <button onclick="sendMessage()">Reservar Caixão</button>
+            </div>
+
+            <div class="product">
+                <img src="images/premium.png" alt="#">
+                <h4>Linha Premium</h4>
+                <p>Madeira nobre, estofamento em seda</p>               
+                    <p class="buy"><Strong>Comprar:</Strong> R$3.500,00</p>
+                    <p class="buy"><Strong>Alugar (24H):</Strong> R$800,00</p>                
+                <button onclick="sendMessage()">Reservar Caixão</button>
+            </div>
+
+            <div class="product">
+                <img src="images/luxo.png" alt="#">
+                <h4>Linha De Luxo</h4>
+                <p>Mogno, acabamentos metálicos</p>               
+                    <p class="buy"><Strong>Comprar:</Strong> R$6.000,00</p>
+                   <p class="buy"><Strong>Alugar (24H):</Strong> R$1.500,00</p>                
+                <button onclick="sendMessage()">Reservar Caixão</button>
+            </div>
+
+            <div class="product">
+                <img src="images/especial.png" alt="#">
+                <h4>Linha Especial</h4>
+                <p>Aço inoxidável, com personalização</p>                
+                    <p class="buy"><Strong>Comprar:</Strong> R$8.500,00</p>
+                    <p class="buy"><Strong>Alugar (24H):</Strong> R$2.000,00</p>                
+                <button onclick="sendMessage()">Reservar Caixão</button>
+            </div>
+        </div>
+        <hr>
+        <address>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1731073118350!6m8!1m7!1stlGyqgzR9nR8XF6v2bWQOQ!2m2!1d-26.90725509795224!2d-48.67155922811453!3f6.87!4f-0.4200000000000017!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h4>Visite nossa loja</h4>
+            <a href="https://www.google.com/maps/@-26.9072551,-48.6715592,3a,75y,4.47h,86.64t/data=!3m7!1e1!3m5!1stlGyqgzR9nR8XF6v2bWQOQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.3577348627446924%26panoid%3DtlGyqgzR9nR8XF6v2bWQOQ%26yaw%3D4.473615723563853!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" >R. Alfredo Trompovski, 506 - Vila Operaria, Itajaí - SC, 88303-140</a>
+
+            <h4>Entre em contato</h4>
+            <p>trabalhodeeducaçãofinanceira@gmail.com</p>
+            <p>(47) 9 9999-9999</p>
+        </address>
+        <hr>
+    </main>
+
+    <footer>
+        <p>Paz & Conforto Caixões, Ltda. 2024 &copy; Todos Os Direitos Reservados</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
